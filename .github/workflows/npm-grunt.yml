@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: |
         npm install
-        npm make_dist
+        npm run make_dist
