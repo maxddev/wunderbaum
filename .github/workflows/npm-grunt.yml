@@ -25,4 +25,4 @@ jobs:
     - name: Build
       run: |
         npm install
-        grunt yabs:release:patch
+        grunt yabs:release:patch --force
