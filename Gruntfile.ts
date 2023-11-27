@@ -52,7 +52,7 @@ module.exports = (grunt: any) => {
         check: {
           branch: ["main"],
           canPush: true,
-          clean: true,
+          //clean: true,
           cmpVersion: "gte",
         },
         //run_test: { tasks: ["test_dev"], always: true },
